@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use App\DataTables\BlogCommentDataTable;
 use App\Http\Controllers\Controller;
-use App\Models\Blog;
 use App\Models\BlogComment;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

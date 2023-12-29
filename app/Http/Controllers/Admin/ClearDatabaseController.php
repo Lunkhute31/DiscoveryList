@@ -4,8 +4,6 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Artisan;
-use Illuminate\Foundation\Events\PublishingStubs;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class ClearDatabaseController extends Controller

@@ -7,7 +7,6 @@ use App\Http\Requests\Admin\AboutUsUpdateRequest;
 use App\Models\AboutUs;
 use App\Traits\FileUploadTrait;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class AboutController extends Controller

@@ -10,7 +10,6 @@ use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Traits\FileUploadTrait;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 class BlogController extends Controller
@@ -25,7 +24,7 @@ class BlogController extends Controller
         $this->middleware(['permission:blog delete'])->only(['destroy']);
 
     }
-    
+
     /**
      * Display a listing of the resource.
      */
